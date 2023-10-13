@@ -1,0 +1,174 @@
+body {
+  background-color:darkcyan;
+}
+
+/* Some default styles to make each box visible */
+
+/* Colors for each box */
+.numbox {
+  background:#000000;
+  height: 600px;
+  width: 400px;
+}
+.display {
+  background-color:#000000;
+  height: 65px;
+}
+#zero{
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  text-align: end;
+  margin-right: 20px;
+  padding-top: 9px;
+}
+
+.clear {
+  font-size: x-large;
+  background-color:darkgray;
+  height: 65px;
+  width: 130px;
+  vertical-align:bottom;
+  
+}
+.back {
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align:bottom;
+}
+.divide {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color:orange;
+  height: 65px;
+  width: 65px;
+}
+.seven {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.eight {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.nine {  
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.multiple {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color:orange;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.four {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.five {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.six {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.minus {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color:orange;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.one {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.two {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.three {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.plus {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color:orange;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.zero {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 65px;
+  width: 195px;
+  vertical-align: top;
+}
+.equal {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color:orange;
+  height: 65px;
+  width: 65px;
+  vertical-align: top;
+}
+.box {
+  color: rgb(0, 0, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 550;
+  font-size: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+
+/* We start writing out flexbox here. The above is just page setup */
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* align-content: space-between; */
+}
