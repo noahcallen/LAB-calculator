@@ -1,0 +1,220 @@
+body {
+  background-color:darkcyan;
+  align-self: center;
+}
+
+/* Some default styles to make each box visible */
+
+/* Colors for each box */
+.numbox {
+  background:#000000;
+  height: 600px;
+  width: 400px;
+}
+.display {
+  background-color:#000000;
+  height: 65px;
+}
+#zero{
+  font-family: monospace;
+  font-size: 75px;
+  color: rgb(255, 255, 255);
+  text-align: end;
+  margin-right: 20px;
+  padding-top: 9px;
+}
+.flat-button {
+  /* ... (other styles) */
+  box-shadow: none; /* Remove box shadow */
+  outline: none;
+  border: none;
+  border-color: none;
+  padding: 0;
+  margin: 0;
+}
+.clear {
+  font-size: x-large;
+  background-color:darkgray;
+  height: 100px;
+  width: 200px;
+  vertical-align:bottom;
+  margin-top: 40px;
+  border: -10px;
+  border-color: #000000;
+  
+  
+}
+.back {
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align:bottom;
+  border: -10px;
+  border-color: #000000;
+}
+.divide {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color:orange;
+  height: 100px;
+  width: 100px;
+  border: -10px;
+  border-color: #000000;
+}
+.seven {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.eight {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.nine {  
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.multiple {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color:orange;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.four {
+  font-family: monospace;
+  font-size: xx-large;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.five {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.six {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.minus {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color:orange;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.one {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.two {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.three {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.plus {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color:orange;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.zero {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color: darkgray;
+  height: 100px;
+  width: 300px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.equal {
+  font-size: xx-large;
+  font-family: monospace;
+  background-color:orange;
+  height: 100px;
+  width: 100px;
+  vertical-align: top;
+  border: -10px;
+  border-color: #000000;
+}
+.box {
+  color: rgb(0, 0, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 550;
+  font-size: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+
+/* We start writing out flexbox here. The above is just page setup */
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* align-content: space-between; */
+}
