@@ -11,15 +11,14 @@ body {
 .container {
   background-color:black;
   text-align: center;
-  /* display: flex; */
+  display: flex;
+  justify-content: space-around;
   border: solid 5px black;
   height: 450px;
   width: 300px;
 }
 
 .btn-primary {
-  background-color: darkcyan;
-  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

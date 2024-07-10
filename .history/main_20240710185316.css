@@ -1,0 +1,25 @@
+body {
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: solid 5px black;
+  height: 600px;
+  width: 350px;
+}
+
+.btn-primary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 75px;
+  width: 75px;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
