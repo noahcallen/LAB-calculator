@@ -1,0 +1,11 @@
+body {
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border: solid 5px black;
+  height: 500px;
+  width: 150px;
+}

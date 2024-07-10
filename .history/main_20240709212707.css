@@ -1,0 +1,11 @@
+body {
+  background-color: bisque;
+}
+
+.outline {
+  border: solid 5px black;
+}
+
+.column1 {
+  flex-direction: column;
+}
